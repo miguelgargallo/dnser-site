@@ -1,21 +1,21 @@
 export default defineAppConfig({
   github: {
-    owner: 'nuxt',
-    repo: 'content',
+    owner: 'pencil-li',
+    repo: 'dnser-docs',
     branch: 'main'
   },
   docus: {
-    title: 'Nuxt Content',
-    description: 'Write pages in markdown, use Vue components and enjoy the power of Nuxt with a blazing fast developer experience.',
-    image: 'https://content.nuxtjs.org/preview.png',
+    title: 'DNSER Docs',
+    description: 'DNS Made Easy for Developers at Scale',
+    image: '.public//cover.jpg',
     url: 'https://content.nuxtjs.org',
     socials: {
       twitter: '@pencildomains',
       github: 'pencil-li/dnser-docs'
     },
     github: {
-      dir: 'docs/content',
-      root: 'docs/content',
+      dir: '/content',
+      root: '/content',
       edit: true,
       releases: true,
       owner: 'pencil-li',
@@ -37,10 +37,10 @@ export default defineAppConfig({
       exclude: ['/v1', '/content-v1', '/fr', '/ja', '/ru']
     },
     footer: {
-      iconLinks: [
+      /* iconLinks: [
         {
-          label: 'NuxtJS',
-          href: 'https://nuxtjs.org',
+          label: 'NPM',
+          href: 'https://npmjs.com/dnser',
           icon: 'IconNuxt'
         },
         {
@@ -48,7 +48,7 @@ export default defineAppConfig({
           href: 'https://vuetelescope.com',
           icon: 'IconVueTelescope'
         }
-      ]
+      ] */
     }
   }
 })
