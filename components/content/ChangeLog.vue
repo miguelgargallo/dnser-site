@@ -50,7 +50,7 @@ css({
       fontWeight: '{fontWeight.bold}',
       color: '{color.gray.900}',
       marginTop: '{space.8}',
-      '@light': {
+      '@dark': {
         color: '{color.gray.100}'
       }
     }
