@@ -7,8 +7,8 @@ export default defineAppConfig({
   docus: {
     title: 'DNSER Docs',
     description: 'DNS Made Easy for Developers at Scale',
-    image: '.public//cover.jpg',
-    url: 'https://content.nuxtjs.org',
+    image: 'https://raw.githubusercontent.com/Pencil-li/dnser-docs/main/public/cover.png',
+    url: 'https://github.com/pencil-li/dnser-docs',
     socials: {
       twitter: '@pencildomains',
       github: 'pencil-li/dnser-docs'
