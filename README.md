@@ -9,3 +9,7 @@ This documentation uses [Docus](https://github.com/nuxt-themes/docus).
 - Install dependencies using `pnpm install`
 - Start using `pnpm dev`
 - Build using `pnpm build`
+
+## Sources
+
+[Icons](https://iconify.design/)
