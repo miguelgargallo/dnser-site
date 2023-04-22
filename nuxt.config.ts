@@ -58,7 +58,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxtlabs/github-module", "@nuxthq/studio", "nuxt-meilisearch"],
+  modules: ["@nuxtlabs/github-module", "@nuxthq/studio"/* , "nuxt-meilisearch" */],
   extends: process.env.DOCUS_THEME_PATH || "@nuxt-themes/docus",
   github: {
     owner: "nuxt",
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
       },
     },
     public: {
-      meilisearch: {
+      /* meilisearch: {
         hostUrl: "http://my-meilisearch-server.domain.com",
         searchApiKey: "<your_public_key>",
         adminApiKey: "<your_secret_key>",
@@ -85,7 +85,7 @@ export default defineNuxtConfig({
         instantSearch: {
           theme: "algolia",
         },
-      },
+      }, */
     },
   },
 });
