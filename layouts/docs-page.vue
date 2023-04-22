@@ -1,20 +1,20 @@
 <template>
   <div class="docs-page">
     <Container>
-      <PylarSearch />
-      <slot />
+<!--       <PylarSearch />
+ -->      <slot />
     </Container>
   </div>
 </template>
 
 <script>
-import PylarSearch from '~/components/content/PylarSearch.vue';
+/* import PylarSearch from '~/components/content/PylarSearch.vue';
 
 export default {
   components: {
     PylarSearch,
   },
-};
+}; */
 </script>
 
 <style scoped lang="ts">
