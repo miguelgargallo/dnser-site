@@ -32,5 +32,8 @@
         "vue"
       ]
     }
+  },
+  "dependencies": {
+    "nuxt-meilisearch": "^0.1.8"
   }
 }
