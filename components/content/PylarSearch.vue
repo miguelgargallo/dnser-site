@@ -52,10 +52,10 @@ export default {
     },
   },
   mounted() {
-    window.addEventListener("keydown", this.handleKeyPress);
+    document.addEventListener("keydown", this.handleKeyPress);
   },
   beforeDestroy() {
-    window.removeEventListener("keydown", this.handleKeyPress);
+    document.removeEventListener("keydown", this.handleKeyPress);
   },
 };
 </script>

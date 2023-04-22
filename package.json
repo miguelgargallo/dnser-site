@@ -32,5 +32,8 @@
         "vue"
       ]
     }
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4"
   }
 }
