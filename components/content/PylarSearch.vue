@@ -17,7 +17,13 @@
 </template>
 
 <script>
-import jsonData from "./PylarSearch.json";
+const jsonData = [];
+
+fetch('/PylarSearch.json')
+  .then((response) => response.json())
+  .then((data) => {
+    jsonData.push(...data);
+  });
 
 export default {
   data() {
