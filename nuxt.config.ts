@@ -76,15 +76,15 @@ export default defineNuxtConfig({
         host: 'https://content.nuxtjs.org'
       }
     },
-    public: {
+    /* public: {
       algolia: {
-        applicationId: 'E3TJT7KISI',
-        apiKey: 'f313571f5d16bd5f2e52423edd4a49ba',
+        applicationId: '',
+        apiKey: '',
         langAttribute: 'lang',
         docSearch: {
           indexName: 'content-nuxtjs'
         }
       }
-    }
+    } */
   }
 })
