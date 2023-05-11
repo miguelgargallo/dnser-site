@@ -1,0 +1,40 @@
+openapi: 3.0.1
+info:
+  title: Handshake TLDs Availability Plugin
+  description: A plugin that allows the user to check the availability of Handshake blockchain TLDs using ChatGPT.
+  version: "v1"
+servers:
+  - url: https://api-dnser.pencil.li/api/hns/domain
+paths:
+  /{name}:
+    get:
+      operationId: getDomainAvailability
+      summary: Check the availability of a domain
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The name of the domain to check.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DomainAvailabilityResponse"
+components:
+  schemas:
+    DomainAvailabilityResponse:
+      type: object
+      properties:
+        name:
+          type: string
+          description: The name of the domain.
+        reserved:
+          type: boolean
+          description: Whether the domain is reserved.
+        state:
+          type: string
+          description: The state of the domain.

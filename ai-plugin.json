@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Handshake TLDs Availability Plugin",
+    "name_for_model": "handshake_tlds_availability",
+    "description_for_human": "Plugin for checking the availability of Handshake blockchain TLDs.",
+    "description_for_model": "Plugin for checking the availability of Handshake blockchain TLDs. You can check the availability of a domain.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://dnser.pencil.li/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "https://raw.githubusercontent.com/pencil-li/brandidentity/main/2023/02/web/basic/Pencil-Works-LLC-01B3x.png",
+    "contact_email": "openai@pylar.org",
+    "legal_info_url": "https://www.pencil.domains/privacypolicy"
+}
