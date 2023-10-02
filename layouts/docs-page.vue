@@ -1,4 +1,5 @@
 <template>
+  <Headx />
   <div class="docs-page">
     <Container>
 <!--       <PylarSearch />

@@ -1,5 +1,4 @@
 <template>
-  <script async src="https://umami.decentralass.com/script.js" data-website-id="be8ecb72-a99e-47f6-865b-5410cc0b00f5"></script>
   <svg width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Pencil Domains | DNSER</title>
