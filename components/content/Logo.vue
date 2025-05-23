@@ -1,6 +1,5 @@
 <template>
-  <script async src="https://umami.decentralass.com/script.js" data-website-id="be8ecb72-a99e-47f6-865b-5410cc0b00f5"></script>
-  <svg width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<script defer src="https://umami.dalton.superdata.dev/script.js" data-website-id="e1331b84-9694-4636-bf76-d5fbd13a27de"></script>  <svg width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Pencil Domains | DNSER</title>
     <g id="Pencil-Works-LLC-01" stroke="none" stroke-width="1" fill="white" fill-rule="evenodd">
