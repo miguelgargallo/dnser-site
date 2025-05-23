@@ -18,6 +18,11 @@ export default defineNuxtConfig({
           "data-domain": "content.nuxtjs.org",
           src: "https://plausible.io/js/script.js",
         },
+        {
+          src: "https://umami.dalton.superdata.dev/script.js",
+          "data-website-id": "e1331b84-9694-4636-bf76-d5fbd13a27de",
+          defer: true,
+        },
       ],
     },
   },
